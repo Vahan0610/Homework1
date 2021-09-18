@@ -21,7 +21,6 @@ lst = []
 
 for i in range(0, 3):
   lst.append([])
-  # print(f'iteration: {i}', 'list: ', lst)
   lst[i] = [j ** 2 for j in range(1, 10)]
 
 
